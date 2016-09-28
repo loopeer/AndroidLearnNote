@@ -1,10 +1,7 @@
 # NestScrollNote
-
 ## Lollipop到最新
-
 ### View
-![](/Users/todou/Documents/learn/note/nestscroll/img_view_nest.png)
-
+![](image/img_view_nest.png)
 ### ViewGroup(implements ViewParent)
 ![](/Users/todou/Documents/learn/note/nestscroll/img_view_group_nest.png)
 
