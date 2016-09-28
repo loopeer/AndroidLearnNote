@@ -3,23 +3,24 @@
 ### View
 ![](image/img_view_nest.png)
 ### ViewGroup(implements ViewParent)
-![](/Users/todou/Documents/learn/note/nestscroll/img_view_group_nest.png)
+![](image/img_view_group_nest.png)
 
+![](image/nest_scroll.png)
 ## Lollipop之前  
 support-compat -> android.support.v4.view
 ### NestedScrollingChild  
-![](/Users/todou/Documents/learn/note/nestscroll/img_nest_scroll_child.png)
+![](image/img_nest_scroll_child.png)
 
 ### NestedScrollingParent
-![](/Users/todou/Documents/learn/note/nestscroll/img_nest_scroll_parent.png)
+![](image/img_nest_scroll_parent.png)
 
 support-core-ui -> android.support.v4.view
 ### NestedScrollingChildHelper
-![](/Users/todou/Documents/learn/note/nestscroll/img_nest_scroll_child_helper.png)
+![](image/img_nest_scroll_child_helper.png)
 ### NestedScrollingParentHelper
-![](/Users/todou/Documents/learn/note/nestscroll/nest_scroll_parent_helper.png)
+![](image/nest_scroll_parent_helper.png)
 ### ViewParentCompat
-![](/Users/todou/Documents/learn/note/nestscroll/img_view_parent_compat.png)
+![](image/img_view_parent_compat.png)
 
 ```java
 static final ViewParentCompatImpl IMPL;
