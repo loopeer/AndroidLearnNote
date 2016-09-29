@@ -18,6 +18,30 @@ support-compat -> android.support.v4.view
 support-core-ui -> android.support.v4.view
 ### NestedScrollingChildHelper
 ![](image/img_nest_scroll_child_helper.png)
+```java
+    public boolean startNestedScroll(int axes) {
+        if (hasNestedScrollingParent()) {
+            // Already in progress
+            return true;
+        }
+        if (isNestedScrollingEnabled()) {
+            ViewParent p = mView.getParent();
+            View child = mView;
+            while (p != null) {
+                if (ViewParentCompat.onStartNestedScroll(p, child, mView, axes)) {
+                    mNestedScrollingParent = p;
+                    ViewParentCompat.onNestedScrollAccepted(p, child, mView, axes);
+                    return true;
+                }
+                if (p instanceof View) {
+                    child = (View) p;
+                }
+                p = p.getParent();
+            }
+        }
+        return false;
+    }
+```
 ### NestedScrollingParentHelper
 ![](image/nest_scroll_parent_helper.png)
 ### ViewParentCompat
