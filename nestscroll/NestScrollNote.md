@@ -7,6 +7,7 @@
 
 ![](image/nest_scroll.png)
 ## Lollipop之前  
+![](image/nest_compat_uml.png)
 support-compat -> android.support.v4.view
 ### NestedScrollingChild  
 ![](image/img_nest_scroll_child.png)
