@@ -120,3 +120,7 @@ class ViewParentCompatLollipop {
     ...
 }
 ```
+
+## 示例
+![](image/nest_compat_example_phone.png)
+![](image/nest_compat_view_ hierarchy.png)
