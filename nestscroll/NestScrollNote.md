@@ -122,5 +122,5 @@ class ViewParentCompatLollipop {
 ```
 
 ## 示例
-![](image/nest_compat_example_phone.png)
+<img src="image/nest_compat_example_phone.png" alt="Drawing" style="width: 100px;height: 199px;"/>
 ![](image/nest_compat_view_ hierarchy.png)
