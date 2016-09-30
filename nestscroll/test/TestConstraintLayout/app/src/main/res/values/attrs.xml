@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpringHeaderBehavior_Params">
+        <attr name="behavior_originalOffset" format="dimension"/>
+        <attr name="behavior_hoveringRange" format="dimension"/>
+        <attr name="behavior_maxRange" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="SimpleRefreshHeader">
+        <attr name="textBelowThreshold" format="string"/>
+        <attr name="textAboveThreshold" format="string"/>
+        <attr name="textRefreshing" format="string"/>
+    </declare-styleable>
+</resources>
