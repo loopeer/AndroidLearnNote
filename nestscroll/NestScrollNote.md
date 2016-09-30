@@ -122,7 +122,8 @@ class ViewParentCompatLollipop {
 ```
 
 ## 示例
-###：CoordinatorLayout内部包含SpringHeader,垂直RecyclerView，RecyclerView内部item包含一个纵向的RecyclerView,当向下拉时SpringHeader没有下拉效果
+###问题  
+CoordinatorLayout内部包含SpringHeader,垂直RecyclerView，RecyclerView内部item包含一个纵向的RecyclerView,当向下拉时SpringHeader没有下拉效果
 <img src="image/nest_compat_example_phone.png" alt="Drawing" style="width: 100px;height: 199px;"/>
 ###View层次图
 ![](image/nest_compat_view_hierarchy.png)
